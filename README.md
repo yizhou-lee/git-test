@@ -17,5 +17,8 @@ git log - 查看历史提交记录
 
 git remote add [shortname] [url] - 添加远程仓库，并取个别名
 git push [alias] [branch] - 推送分支与数据到远程仓库
+git fetch - 从远程仓库下载新分支与数据
+git merge - 从远端仓库提取数据并尝试合并到当前分支
+git pull - 等于fetch + merge
 git remote rm (name) - 删除远程仓库
 ```
